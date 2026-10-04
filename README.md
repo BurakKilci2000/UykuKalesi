@@ -1,6 +1,9 @@
 # Uyku Kalesi — Gece Yarısı Kabuslarına Karşı Oyuncak Savunması
 
 Kocaeli Üniversitesi Bilgisayar Mühendisliği — Programlama Laboratuvarı-I, Proje II (Kule Savunma).
+
+📄 **Proje raporu (IEEE):** [docs/UykuKalesi_Rapor.pdf](docs/UykuKalesi_Rapor.pdf)
+
 Dil: **Java 11+**, arayüz: **Swing** (ek kütüphane yok).
 
 ## Konsept
