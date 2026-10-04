@@ -1,0 +1,235 @@
+==== UYKU KALESİ — SAVUNMA GÜNLÜĞÜ ====
+Kayıt tarihi: 02.10.2026 12:23:00
+Satır biçimi: [gerçek saat | simülasyon zamanı] olay
+
+[12:23:00.924 | T+000.00s] Simülasyon Başladı. Senaryo: 'Gece Yarısı Koridoru'. Başlangıç Uyku Derinliği (Can): 100, Şeker (Para): 200.
+[12:23:00.950 | T+000.00s] Dolapta hazırlanan Gece Yarısı Akını 1: TozCanavari x2, GeceKelebegi x1, TenekeRobot x1; Toplam: 4 → TozCanavari-ID101, GeceKelebegi-ID102, TenekeRobot-ID103 (Zırh 76), TozCanavari-ID104.
+[12:23:00.951 | T+000.00s] Dolapta hazırlanan Gece Yarısı Akını 2: TozCanavari x3, TenekeRobot x5, GeceKelebegi x2; Toplam: 10 → TozCanavari-ID201, TenekeRobot-ID202 (Zırh 95), GeceKelebegi-ID203, TenekeRobot-ID204 (Zırh 50), TozCanavari-ID205, TenekeRobot-ID206 (Zırh 79), GeceKelebegi-ID207, TenekeRobot-ID208 (Zırh 59), TozCanavari-ID209, TenekeRobot-ID210 (Zırh 93).
+[12:23:00.982 | T+000.00s] Kullanıcı, (170, 175) konumuna (Oyuncak Yuvası #1) 'LastikSapan-ID001' kurdu. Maliyet: 50. Kalan Şeker: 150.
+[12:23:00.987 | T+000.00s] Kullanıcı, (330, 375) konumuna (Oyuncak Yuvası #4) 'SuTabancasi-ID002' kurdu. Maliyet: 70. Kalan Şeker: 80.
+[12:23:00.991 | T+000.00s] Kullanıcı, (330, 375) konumundaki Oyuncak Yuvası #4 için Su Tabancası istedi; yuva dolu, kurulmadı.
+[12:23:00.995 | T+000.00s] Kullanıcı, (510, 300) konumuna (Oyuncak Yuvası #6) 'BilyeMancinigi-ID003' kurdu. Maliyet: 75. Kalan Şeker: 5.
+[12:23:00.999 | T+000.00s] Kullanıcı, (170, 355) konumuna Bilye Mancınığı istedi; şeker yetersiz (5/75), kurulmadı.
+[12:23:01.004 | T+000.00s] Gece Yarısı Akını 1 Başladı! Dolap kapısı aralandı. (Dağılım: TozCanavari x2, GeceKelebegi x1, TenekeRobot x1; Toplam: 4)
+[12:23:01.017 | T+000.02s] Kabus 'TozCanavari-ID101' dolaptan çıktı (Korku Enerjisi: 50/50, Zırh: 0, Hız: 50 px/sn, yerde).
+[12:23:01.019 | T+000.45s] Savunucu 'LastikSapan-ID001' hedef aldı: 'TozCanavari-ID101' (öncelik: yatağa en yakın, kalan yol 1960 px).
+[12:23:01.021 | T+000.77s] Sapan taşı isabet etti: 'TozCanavari-ID101' ← LastikSapan-ID001: Taban 10; zırh yok, Net Hasar 10. Kalan Korku Enerjisi: 40/50.
+[12:23:01.028 | T+001.67s] Sapan taşı isabet etti: 'TozCanavari-ID101' ← LastikSapan-ID001: Taban 10; zırh yok, Net Hasar 10. Kalan Korku Enerjisi: 30/50.
+[12:23:01.028 | T+001.83s] Kabus 'GeceKelebegi-ID102' dolaptan çıktı (Korku Enerjisi: 50/50, Zırh: 0, Hız: 75 px/sn, uçuyor).
+[12:23:01.029 | T+002.62s] Sapan taşı isabet etti: 'TozCanavari-ID101' ← LastikSapan-ID001: Taban 10; zırh yok, Net Hasar 10. Kalan Korku Enerjisi: 20/50.
+[12:23:01.029 | T+003.65s] Kabus 'TenekeRobot-ID103' dolaptan çıktı (Korku Enerjisi: 75/75, Zırh: 76, Hız: 25 px/sn, yerde).
+[12:23:01.029 | T+003.65s] Sapan taşı isabet etti: 'TozCanavari-ID101' ← LastikSapan-ID001: Taban 10; zırh yok, Net Hasar 10. Kalan Korku Enerjisi: 10/50.
+[12:23:01.031 | T+004.70s] Sapan taşı isabet etti: 'TozCanavari-ID101' ← LastikSapan-ID001: Taban 10; zırh yok, Net Hasar 10. Kalan Korku Enerjisi: 0/50.
+[12:23:01.033 | T+004.70s] 'TozCanavari-ID101' dağıldı (yenildi). Ödül +10 şeker. Toplam Şeker: 15.
+[12:23:01.037 | T+005.45s] Savunucu 'LastikSapan-ID001' hedef aldı: 'GeceKelebegi-ID102' (öncelik: yatağa en yakın, kalan yol 1710 px).
+[12:23:01.038 | T+005.47s] Kabus 'TozCanavari-ID104' dolaptan çıktı (Korku Enerjisi: 50/50, Zırh: 0, Hız: 50 px/sn, yerde).
+[12:23:01.038 | T+005.67s] Sapan taşı isabet etti: 'GeceKelebegi-ID102' ← LastikSapan-ID001: Taban 10; zırh yok, Net Hasar 10. Kalan Korku Enerjisi: 40/50.
+[12:23:01.040 | T+006.72s] Sapan taşı isabet etti: 'GeceKelebegi-ID102' ← LastikSapan-ID001: Taban 10; zırh yok, Net Hasar 10. Kalan Korku Enerjisi: 30/50.
+[12:23:01.041 | T+007.63s] Sapan taşı isabet etti: 'GeceKelebegi-ID102' ← LastikSapan-ID001: Taban 10; zırh yok, Net Hasar 10. Kalan Korku Enerjisi: 20/50.
+[12:23:01.041 | T+008.68s] Sapan taşı isabet etti: 'GeceKelebegi-ID102' ← LastikSapan-ID001: Taban 10; zırh yok, Net Hasar 10. Kalan Korku Enerjisi: 10/50.
+[12:23:01.042 | T+009.45s] Savunucu 'LastikSapan-ID001' hedef aldı: 'TozCanavari-ID104' (öncelik: yatağa en yakın, kalan yol 1782 px).
+[12:23:01.042 | T+009.70s] Sapan taşı isabet etti: 'TozCanavari-ID104' ← LastikSapan-ID001: Taban 10; zırh yok, Net Hasar 10. Kalan Korku Enerjisi: 40/50.
+[12:23:01.042 | T+010.67s] Sapan taşı isabet etti: 'TozCanavari-ID104' ← LastikSapan-ID001: Taban 10; zırh yok, Net Hasar 10. Kalan Korku Enerjisi: 30/50.
+[12:23:01.043 | T+011.67s] Sapan taşı isabet etti: 'TozCanavari-ID104' ← LastikSapan-ID001: Taban 10; zırh yok, Net Hasar 10. Kalan Korku Enerjisi: 20/50.
+[12:23:01.043 | T+012.73s] Sapan taşı isabet etti: 'TozCanavari-ID104' ← LastikSapan-ID001: Taban 10; zırh yok, Net Hasar 10. Kalan Korku Enerjisi: 10/50.
+[12:23:01.043 | T+013.68s] Sapan taşı isabet etti: 'TozCanavari-ID104' ← LastikSapan-ID001: Taban 10; zırh yok, Net Hasar 10. Kalan Korku Enerjisi: 0/50.
+[12:23:01.044 | T+013.68s] 'TozCanavari-ID104' dağıldı (yenildi). Ödül +10 şeker. Toplam Şeker: 25.
+[12:23:01.044 | T+013.77s] Savunucu 'SuTabancasi-ID002' hedef aldı: 'GeceKelebegi-ID102' (öncelik: yatağa en yakın, kalan yol 1086 px).
+[12:23:01.052 | T+014.07s] Su jeti isabet etti: 'GeceKelebegi-ID102' ← SuTabancasi-ID002: Taban 15; zırh yok, Net Hasar 15. Kalan Korku Enerjisi: 0/50.
+[12:23:01.052 | T+014.07s] 'GeceKelebegi-ID102' dağıldı (yenildi). Ödül +15 şeker. Toplam Şeker: 40.
+[12:23:01.053 | T+014.45s] Savunucu 'LastikSapan-ID001' hedef aldı: 'TenekeRobot-ID103' (öncelik: yatağa en yakın, kalan yol 1712 px).
+[12:23:01.055 | T+014.65s] Sapan taşı isabet etti: 'TenekeRobot-ID103' ← LastikSapan-ID001: Taban 10 → Zırhlı cezası %50 → 5; Zırh formülü (Zırh 76) ile Net Hasar 2.84. Kalan Korku Enerjisi: 72.16/75.
+[12:23:01.055 | T+015.65s] Sapan taşı isabet etti: 'TenekeRobot-ID103' ← LastikSapan-ID001: Taban 10 → Zırhlı cezası %50 → 5; Zırh formülü (Zırh 76) ile Net Hasar 2.84. Kalan Korku Enerjisi: 69.32/75.
+[12:23:01.055 | T+016.68s] Sapan taşı isabet etti: 'TenekeRobot-ID103' ← LastikSapan-ID001: Taban 10 → Zırhlı cezası %50 → 5; Zırh formülü (Zırh 76) ile Net Hasar 2.84. Kalan Korku Enerjisi: 66.48/75.
+[12:23:01.056 | T+017.72s] Sapan taşı isabet etti: 'TenekeRobot-ID103' ← LastikSapan-ID001: Taban 10 → Zırhlı cezası %50 → 5; Zırh formülü (Zırh 76) ile Net Hasar 2.84. Kalan Korku Enerjisi: 63.64/75.
+[12:23:01.060 | T+018.73s] Sapan taşı isabet etti: 'TenekeRobot-ID103' ← LastikSapan-ID001: Taban 10 → Zırhlı cezası %50 → 5; Zırh formülü (Zırh 76) ile Net Hasar 2.84. Kalan Korku Enerjisi: 60.8/75.
+[12:23:01.060 | T+019.70s] Sapan taşı isabet etti: 'TenekeRobot-ID103' ← LastikSapan-ID001: Taban 10 → Zırhlı cezası %50 → 5; Zırh formülü (Zırh 76) ile Net Hasar 2.84. Kalan Korku Enerjisi: 57.95/75.
+[12:23:01.060 | T+020.67s] Sapan taşı isabet etti: 'TenekeRobot-ID103' ← LastikSapan-ID001: Taban 10 → Zırhlı cezası %50 → 5; Zırh formülü (Zırh 76) ile Net Hasar 2.84. Kalan Korku Enerjisi: 55.11/75.
+[12:23:01.061 | T+021.67s] Sapan taşı isabet etti: 'TenekeRobot-ID103' ← LastikSapan-ID001: Taban 10 → Zırhlı cezası %50 → 5; Zırh formülü (Zırh 76) ile Net Hasar 2.84. Kalan Korku Enerjisi: 52.27/75.
+[12:23:01.061 | T+022.67s] Sapan taşı isabet etti: 'TenekeRobot-ID103' ← LastikSapan-ID001: Taban 10 → Zırhlı cezası %50 → 5; Zırh formülü (Zırh 76) ile Net Hasar 2.84. Kalan Korku Enerjisi: 49.43/75.
+[12:23:01.061 | T+023.70s] Sapan taşı isabet etti: 'TenekeRobot-ID103' ← LastikSapan-ID001: Taban 10 → Zırhlı cezası %50 → 5; Zırh formülü (Zırh 76) ile Net Hasar 2.84. Kalan Korku Enerjisi: 46.59/75.
+[12:23:01.062 | T+024.73s] Sapan taşı isabet etti: 'TenekeRobot-ID103' ← LastikSapan-ID001: Taban 10 → Zırhlı cezası %50 → 5; Zırh formülü (Zırh 76) ile Net Hasar 2.84. Kalan Korku Enerjisi: 43.75/75.
+[12:23:01.062 | T+025.80s] Sapan taşı isabet etti: 'TenekeRobot-ID103' ← LastikSapan-ID001: Taban 10 → Zırhlı cezası %50 → 5; Zırh formülü (Zırh 76) ile Net Hasar 2.84. Kalan Korku Enerjisi: 40.91/75.
+[12:23:01.063 | T+039.45s] Savunucu 'SuTabancasi-ID002' hedef aldı: 'TenekeRobot-ID103' (öncelik: yatağa en yakın, kalan yol 1087 px).
+[12:23:01.063 | T+039.80s] Su jeti isabet etti: 'TenekeRobot-ID103' ← SuTabancasi-ID002: Taban 15; Zırh formülü (Zırh 76) ile Net Hasar 8.52. Kalan Korku Enerjisi: 32.39/75.
+[12:23:01.064 | T+039.80s] 'TenekeRobot-ID103' sırılsıklam oldu: Yavaşlatma %50 (3 sn), hız 25 → 12.5 px/sn.
+[12:23:01.072 | T+041.78s] Su jeti isabet etti: 'TenekeRobot-ID103' ← SuTabancasi-ID002: Taban 15; Zırh formülü (Zırh 76) ile Net Hasar 8.52. Kalan Korku Enerjisi: 23.86/75.
+[12:23:01.072 | T+041.78s] 'TenekeRobot-ID103' sırılsıklam oldu: Yavaşlatma %50 (3 sn), hız 25 → 12.5 px/sn.
+[12:23:01.073 | T+043.77s] Su jeti isabet etti: 'TenekeRobot-ID103' ← SuTabancasi-ID002: Taban 15; Zırh formülü (Zırh 76) ile Net Hasar 8.52. Kalan Korku Enerjisi: 15.34/75.
+[12:23:01.073 | T+043.77s] 'TenekeRobot-ID103' sırılsıklam oldu: Yavaşlatma %50 (3 sn), hız 25 → 12.5 px/sn.
+[12:23:01.073 | T+045.77s] Su jeti isabet etti: 'TenekeRobot-ID103' ← SuTabancasi-ID002: Taban 15; Zırh formülü (Zırh 76) ile Net Hasar 8.52. Kalan Korku Enerjisi: 6.82/75.
+[12:23:01.073 | T+045.77s] 'TenekeRobot-ID103' sırılsıklam oldu: Yavaşlatma %50 (3 sn), hız 25 → 12.5 px/sn.
+[12:23:01.074 | T+047.80s] Su jeti isabet etti: 'TenekeRobot-ID103' ← SuTabancasi-ID002: Taban 15; Zırh formülü (Zırh 76) ile Net Hasar 8.52. Kalan Korku Enerjisi: 0/75.
+[12:23:01.074 | T+047.80s] 'TenekeRobot-ID103' dağıldı (yenildi). Ödül +20 şeker. Toplam Şeker: 60.
+[12:23:01.082 | T+047.80s] Gece Yarısı Akını 1 püskürtüldü. Uyku: 100, Şeker: 60.
+[12:23:01.083 | T+047.80s] Sonraki akına 10 sn var; savunmayı güçlendirme zamanı.
+[12:23:01.085 | T+047.80s] Kullanıcı, (705, 330) konumuna (Oyuncak Yuvası #8) 'LastikSapan-ID004' kurdu. Maliyet: 50. Kalan Şeker: 10.
+[12:23:01.087 | T+047.80s] Kullanıcı, (510, 90) konumuna Lastik Sapan istedi; şeker yetersiz (10/50), kurulmadı.
+[12:23:01.088 | T+047.80s] Kullanıcı, (330, 190) konumuna Bilye Mancınığı istedi; şeker yetersiz (10/75), kurulmadı.
+[12:23:01.088 | T+057.80s] Gece Yarısı Akını 2 Başladı! Dolap kapısı aralandı. (Dağılım: TozCanavari x3, TenekeRobot x5, GeceKelebegi x2; Toplam: 10)
+[12:23:01.089 | T+057.80s] Kabus 'TozCanavari-ID201' dolaptan çıktı (Korku Enerjisi: 50/50, Zırh: 0, Hız: 50 px/sn, yerde).
+[12:23:01.089 | T+058.23s] Savunucu 'LastikSapan-ID001' hedef aldı: 'TozCanavari-ID201' (öncelik: yatağa en yakın, kalan yol 1960 px).
+[12:23:01.090 | T+058.55s] Sapan taşı isabet etti: 'TozCanavari-ID201' ← LastikSapan-ID001: Taban 10; zırh yok, Net Hasar 10. Kalan Korku Enerjisi: 40/50.
+[12:23:01.091 | T+059.45s] Sapan taşı isabet etti: 'TozCanavari-ID201' ← LastikSapan-ID001: Taban 10; zırh yok, Net Hasar 10. Kalan Korku Enerjisi: 30/50.
+[12:23:01.091 | T+059.62s] Kabus 'TenekeRobot-ID202' dolaptan çıktı (Korku Enerjisi: 75/75, Zırh: 95, Hız: 25 px/sn, yerde).
+[12:23:01.091 | T+060.40s] Sapan taşı isabet etti: 'TozCanavari-ID201' ← LastikSapan-ID001: Taban 10; zırh yok, Net Hasar 10. Kalan Korku Enerjisi: 20/50.
+[12:23:01.091 | T+061.43s] Kabus 'GeceKelebegi-ID203' dolaptan çıktı (Korku Enerjisi: 50/50, Zırh: 0, Hız: 75 px/sn, uçuyor).
+[12:23:01.091 | T+061.43s] Sapan taşı isabet etti: 'TozCanavari-ID201' ← LastikSapan-ID001: Taban 10; zırh yok, Net Hasar 10. Kalan Korku Enerjisi: 10/50.
+[12:23:01.092 | T+062.48s] Sapan taşı isabet etti: 'TozCanavari-ID201' ← LastikSapan-ID001: Taban 10; zırh yok, Net Hasar 10. Kalan Korku Enerjisi: 0/50.
+[12:23:01.092 | T+062.48s] 'TozCanavari-ID201' dağıldı (yenildi). Ödül +10 şeker. Toplam Şeker: 20.
+[12:23:01.096 | T+063.23s] Savunucu 'LastikSapan-ID001' hedef aldı: 'GeceKelebegi-ID203' (öncelik: yatağa en yakın, kalan yol 1846 px).
+[12:23:01.100 | T+063.25s] Kabus 'TenekeRobot-ID204' dolaptan çıktı (Korku Enerjisi: 75/75, Zırh: 50, Hız: 25 px/sn, yerde).
+[12:23:01.100 | T+063.45s] Sapan taşı isabet etti: 'GeceKelebegi-ID203' ← LastikSapan-ID001: Taban 10; zırh yok, Net Hasar 10. Kalan Korku Enerjisi: 40/50.
+[12:23:01.101 | T+064.52s] Sapan taşı isabet etti: 'GeceKelebegi-ID203' ← LastikSapan-ID001: Taban 10; zırh yok, Net Hasar 10. Kalan Korku Enerjisi: 30/50.
+[12:23:01.101 | T+065.07s] Kabus 'TozCanavari-ID205' dolaptan çıktı (Korku Enerjisi: 50/50, Zırh: 0, Hız: 50 px/sn, yerde).
+[12:23:01.101 | T+065.43s] Sapan taşı isabet etti: 'GeceKelebegi-ID203' ← LastikSapan-ID001: Taban 10; zırh yok, Net Hasar 10. Kalan Korku Enerjisi: 20/50.
+[12:23:01.101 | T+066.48s] Sapan taşı isabet etti: 'GeceKelebegi-ID203' ← LastikSapan-ID001: Taban 10; zırh yok, Net Hasar 10. Kalan Korku Enerjisi: 10/50.
+[12:23:01.101 | T+066.88s] Kabus 'TenekeRobot-ID206' dolaptan çıktı (Korku Enerjisi: 75/75, Zırh: 79, Hız: 25 px/sn, yerde).
+[12:23:01.101 | T+067.42s] Sapan taşı isabet etti: 'GeceKelebegi-ID203' ← LastikSapan-ID001: Taban 10; zırh yok, Net Hasar 10. Kalan Korku Enerjisi: 0/50.
+[12:23:01.101 | T+067.42s] 'GeceKelebegi-ID203' dağıldı (yenildi). Ödül +15 şeker. Toplam Şeker: 35.
+[12:23:01.102 | T+068.23s] Savunucu 'LastikSapan-ID001' hedef aldı: 'TenekeRobot-ID202' (öncelik: yatağa en yakın, kalan yol 1766 px).
+[12:23:01.102 | T+068.50s] Sapan taşı isabet etti: 'TenekeRobot-ID202' ← LastikSapan-ID001: Taban 10 → Zırhlı cezası %50 → 5; Zırh formülü (Zırh 95) ile Net Hasar 2.56. Kalan Korku Enerjisi: 72.44/75.
+[12:23:01.102 | T+068.70s] Kabus 'GeceKelebegi-ID207' dolaptan çıktı (Korku Enerjisi: 50/50, Zırh: 0, Hız: 75 px/sn, uçuyor).
+[12:23:01.102 | T+069.47s] Sapan taşı isabet etti: 'TenekeRobot-ID202' ← LastikSapan-ID001: Taban 10 → Zırhlı cezası %50 → 5; Zırh formülü (Zırh 95) ile Net Hasar 2.56. Kalan Korku Enerjisi: 69.87/75.
+[12:23:01.102 | T+070.43s] Sapan taşı isabet etti: 'TenekeRobot-ID202' ← LastikSapan-ID001: Taban 10 → Zırhlı cezası %50 → 5; Zırh formülü (Zırh 95) ile Net Hasar 2.56. Kalan Korku Enerjisi: 67.31/75.
+[12:23:01.103 | T+070.52s] Kabus 'TenekeRobot-ID208' dolaptan çıktı (Korku Enerjisi: 75/75, Zırh: 59, Hız: 25 px/sn, yerde).
+[12:23:01.103 | T+071.23s] Savunucu 'LastikSapan-ID001' hedef aldı: 'TozCanavari-ID205' (öncelik: yatağa en yakın, kalan yol 1673 px).
+[12:23:01.103 | T+071.45s] Sapan taşı isabet etti: 'TozCanavari-ID205' ← LastikSapan-ID001: Taban 10; zırh yok, Net Hasar 10. Kalan Korku Enerjisi: 40/50.
+[12:23:01.103 | T+072.33s] Kabus 'TozCanavari-ID209' dolaptan çıktı (Korku Enerjisi: 50/50, Zırh: 0, Hız: 50 px/sn, yerde).
+[12:23:01.103 | T+072.52s] Sapan taşı isabet etti: 'TozCanavari-ID205' ← LastikSapan-ID001: Taban 10; zırh yok, Net Hasar 10. Kalan Korku Enerjisi: 30/50.
+[12:23:01.103 | T+073.47s] Sapan taşı isabet etti: 'TozCanavari-ID205' ← LastikSapan-ID001: Taban 10; zırh yok, Net Hasar 10. Kalan Korku Enerjisi: 20/50.
+[12:23:01.104 | T+074.15s] Kabus 'TenekeRobot-ID210' dolaptan çıktı (Korku Enerjisi: 75/75, Zırh: 93, Hız: 25 px/sn, yerde).
+[12:23:01.104 | T+074.45s] Sapan taşı isabet etti: 'TozCanavari-ID205' ← LastikSapan-ID001: Taban 10; zırh yok, Net Hasar 10. Kalan Korku Enerjisi: 10/50.
+[12:23:01.108 | T+075.52s] Sapan taşı isabet etti: 'TozCanavari-ID205' ← LastikSapan-ID001: Taban 10; zırh yok, Net Hasar 10. Kalan Korku Enerjisi: 0/50.
+[12:23:01.108 | T+075.52s] 'TozCanavari-ID205' dağıldı (yenildi). Ödül +10 şeker. Toplam Şeker: 45.
+[12:23:01.109 | T+076.23s] Savunucu 'LastikSapan-ID001' hedef aldı: 'GeceKelebegi-ID207' (öncelik: yatağa en yakın, kalan yol 1416 px).
+[12:23:01.109 | T+076.63s] Sapan taşı isabet etti: 'GeceKelebegi-ID207' ← LastikSapan-ID001: Taban 10; zırh yok, Net Hasar 10. Kalan Korku Enerjisi: 40/50.
+[12:23:01.109 | T+077.23s] Savunucu 'LastikSapan-ID001' hedef aldı: 'TenekeRobot-ID202' (öncelik: yatağa en yakın, kalan yol 1541 px).
+[12:23:01.109 | T+077.45s] Sapan taşı isabet etti: 'TenekeRobot-ID202' ← LastikSapan-ID001: Taban 10 → Zırhlı cezası %50 → 5; Zırh formülü (Zırh 95) ile Net Hasar 2.56. Kalan Korku Enerjisi: 64.74/75.
+[12:23:01.109 | T+078.45s] Sapan taşı isabet etti: 'TenekeRobot-ID202' ← LastikSapan-ID001: Taban 10 → Zırhlı cezası %50 → 5; Zırh formülü (Zırh 95) ile Net Hasar 2.56. Kalan Korku Enerjisi: 62.18/75.
+[12:23:01.110 | T+079.48s] Sapan taşı isabet etti: 'TenekeRobot-ID202' ← LastikSapan-ID001: Taban 10 → Zırhlı cezası %50 → 5; Zırh formülü (Zırh 95) ile Net Hasar 2.56. Kalan Korku Enerjisi: 59.62/75.
+[12:23:01.110 | T+080.52s] Sapan taşı isabet etti: 'TenekeRobot-ID202' ← LastikSapan-ID001: Taban 10 → Zırhlı cezası %50 → 5; Zırh formülü (Zırh 95) ile Net Hasar 2.56. Kalan Korku Enerjisi: 57.05/75.
+[12:23:01.110 | T+080.63s] Savunucu 'SuTabancasi-ID002' hedef aldı: 'GeceKelebegi-ID207' (öncelik: yatağa en yakın, kalan yol 1086 px).
+[12:23:01.110 | T+080.93s] Su jeti isabet etti: 'GeceKelebegi-ID207' ← SuTabancasi-ID002: Taban 15; zırh yok, Net Hasar 15. Kalan Korku Enerjisi: 25/50.
+[12:23:01.110 | T+080.93s] 'GeceKelebegi-ID207' sırılsıklam oldu: Yavaşlatma %50 (3 sn), hız 75 → 37.5 px/sn.
+[12:23:01.111 | T+081.57s] Sapan taşı isabet etti: 'TenekeRobot-ID202' ← LastikSapan-ID001: Taban 10 → Zırhlı cezası %50 → 5; Zırh formülü (Zırh 95) ile Net Hasar 2.56. Kalan Korku Enerjisi: 54.49/75.
+[12:23:01.111 | T+082.62s] Sapan taşı isabet etti: 'TenekeRobot-ID202' ← LastikSapan-ID001: Taban 10 → Zırhlı cezası %50 → 5; Zırh formülü (Zırh 95) ile Net Hasar 2.56. Kalan Korku Enerjisi: 51.92/75.
+[12:23:01.111 | T+082.88s] Su jeti isabet etti: 'GeceKelebegi-ID207' ← SuTabancasi-ID002: Taban 15; zırh yok, Net Hasar 15. Kalan Korku Enerjisi: 10/50.
+[12:23:01.111 | T+082.88s] 'GeceKelebegi-ID207' sırılsıklam oldu: Yavaşlatma %50 (3 sn), hız 75 → 37.5 px/sn.
+[12:23:01.111 | T+083.23s] Savunucu 'LastikSapan-ID001' hedef aldı: 'TozCanavari-ID209' (öncelik: yatağa en yakın, kalan yol 1436 px).
+[12:23:01.111 | T+083.60s] Sapan taşı isabet etti: 'TozCanavari-ID209' ← LastikSapan-ID001: Taban 10; zırh yok, Net Hasar 10. Kalan Korku Enerjisi: 40/50.
+[12:23:01.112 | T+084.23s] Savunucu 'LastikSapan-ID001' hedef aldı: 'TenekeRobot-ID204' (öncelik: yatağa en yakın, kalan yol 1457 px).
+[12:23:01.112 | T+084.53s] Sapan taşı isabet etti: 'TenekeRobot-ID204' ← LastikSapan-ID001: Taban 10 → Zırhlı cezası %50 → 5; Zırh formülü (Zırh 50) ile Net Hasar 3.33. Kalan Korku Enerjisi: 71.67/75.
+[12:23:01.117 | T+084.97s] Su jeti isabet etti: 'GeceKelebegi-ID207' ← SuTabancasi-ID002: Taban 15; zırh yok, Net Hasar 15. Kalan Korku Enerjisi: 0/50.
+[12:23:01.117 | T+084.97s] 'GeceKelebegi-ID207' dağıldı (yenildi). Ödül +15 şeker. Toplam Şeker: 60.
+[12:23:01.117 | T+085.58s] Sapan taşı isabet etti: 'TenekeRobot-ID204' ← LastikSapan-ID001: Taban 10 → Zırhlı cezası %50 → 5; Zırh formülü (Zırh 50) ile Net Hasar 3.33. Kalan Korku Enerjisi: 68.33/75.
+[12:23:01.120 | T+086.23s] Savunucu 'LastikSapan-ID001' hedef aldı: 'TenekeRobot-ID206' (öncelik: yatağa en yakın, kalan yol 1498 px).
+[12:23:01.120 | T+086.47s] Sapan taşı isabet etti: 'TenekeRobot-ID206' ← LastikSapan-ID001: Taban 10 → Zırhlı cezası %50 → 5; Zırh formülü (Zırh 79) ile Net Hasar 2.79. Kalan Korku Enerjisi: 72.21/75.
+[12:23:01.121 | T+087.50s] Sapan taşı isabet etti: 'TenekeRobot-ID206' ← LastikSapan-ID001: Taban 10 → Zırhlı cezası %50 → 5; Zırh formülü (Zırh 79) ile Net Hasar 2.79. Kalan Korku Enerjisi: 69.41/75.
+[12:23:01.121 | T+088.55s] Sapan taşı isabet etti: 'TenekeRobot-ID206' ← LastikSapan-ID001: Taban 10 → Zırhlı cezası %50 → 5; Zırh formülü (Zırh 79) ile Net Hasar 2.79. Kalan Korku Enerjisi: 66.62/75.
+[12:23:01.121 | T+089.60s] Sapan taşı isabet etti: 'TenekeRobot-ID206' ← LastikSapan-ID001: Taban 10 → Zırhlı cezası %50 → 5; Zırh formülü (Zırh 79) ile Net Hasar 2.79. Kalan Korku Enerjisi: 63.83/75.
+[12:23:01.121 | T+090.23s] Savunucu 'LastikSapan-ID001' hedef aldı: 'TenekeRobot-ID208' (öncelik: yatağa en yakın, kalan yol 1489 px).
+[12:23:01.122 | T+090.23s] Savunucu 'SuTabancasi-ID002' hedef aldı: 'TozCanavari-ID209' (öncelik: yatağa en yakın, kalan yol 1086 px).
+[12:23:01.122 | T+090.48s] Sapan taşı isabet etti: 'TenekeRobot-ID208' ← LastikSapan-ID001: Taban 10 → Zırhlı cezası %50 → 5; Zırh formülü (Zırh 59) ile Net Hasar 3.14. Kalan Korku Enerjisi: 71.86/75.
+[12:23:01.122 | T+090.58s] Su jeti isabet etti: 'TozCanavari-ID209' ← SuTabancasi-ID002: Taban 15; zırh yok, Net Hasar 15. Kalan Korku Enerjisi: 25/50.
+[12:23:01.122 | T+090.58s] 'TozCanavari-ID209' sırılsıklam oldu: Yavaşlatma %50 (3 sn), hız 50 → 25 px/sn.
+[12:23:01.122 | T+091.52s] Sapan taşı isabet etti: 'TenekeRobot-ID208' ← LastikSapan-ID001: Taban 10 → Zırhlı cezası %50 → 5; Zırh formülü (Zırh 59) ile Net Hasar 3.14. Kalan Korku Enerjisi: 68.71/75.
+[12:23:01.122 | T+092.53s] Su jeti isabet etti: 'TozCanavari-ID209' ← SuTabancasi-ID002: Taban 15; zırh yok, Net Hasar 15. Kalan Korku Enerjisi: 10/50.
+[12:23:01.123 | T+092.53s] 'TozCanavari-ID209' sırılsıklam oldu: Yavaşlatma %50 (3 sn), hız 50 → 25 px/sn.
+[12:23:01.123 | T+092.57s] Sapan taşı isabet etti: 'TenekeRobot-ID208' ← LastikSapan-ID001: Taban 10 → Zırhlı cezası %50 → 5; Zırh formülü (Zırh 59) ile Net Hasar 3.14. Kalan Korku Enerjisi: 65.57/75.
+[12:23:01.123 | T+093.63s] Sapan taşı isabet etti: 'TenekeRobot-ID208' ← LastikSapan-ID001: Taban 10 → Zırhlı cezası %50 → 5; Zırh formülü (Zırh 59) ile Net Hasar 3.14. Kalan Korku Enerjisi: 62.42/75.
+[12:23:01.123 | T+094.23s] Savunucu 'LastikSapan-ID001' hedef aldı: 'TenekeRobot-ID210' (öncelik: yatağa en yakın, kalan yol 1479 px).
+[12:23:01.123 | T+094.50s] Sapan taşı isabet etti: 'TenekeRobot-ID210' ← LastikSapan-ID001: Taban 10 → Zırhlı cezası %50 → 5; Zırh formülü (Zırh 93) ile Net Hasar 2.59. Kalan Korku Enerjisi: 72.41/75.
+[12:23:01.124 | T+094.55s] Su jeti isabet etti: 'TozCanavari-ID209' ← SuTabancasi-ID002: Taban 15; zırh yok, Net Hasar 15. Kalan Korku Enerjisi: 0/50.
+[12:23:01.124 | T+094.55s] 'TozCanavari-ID209' dağıldı (yenildi). Ödül +10 şeker. Toplam Şeker: 70.
+[12:23:01.128 | T+095.53s] Sapan taşı isabet etti: 'TenekeRobot-ID210' ← LastikSapan-ID001: Taban 10 → Zırhlı cezası %50 → 5; Zırh formülü (Zırh 93) ile Net Hasar 2.59. Kalan Korku Enerjisi: 69.82/75.
+[12:23:01.129 | T+096.28s] Savunucu 'SuTabancasi-ID002' hedef aldı: 'TenekeRobot-ID202' (öncelik: yatağa en yakın, kalan yol 1065 px).
+[12:23:01.129 | T+096.60s] Sapan taşı isabet etti: 'TenekeRobot-ID210' ← LastikSapan-ID001: Taban 10 → Zırhlı cezası %50 → 5; Zırh formülü (Zırh 93) ile Net Hasar 2.59. Kalan Korku Enerjisi: 67.23/75.
+[12:23:01.131 | T+096.60s] Su jeti isabet etti: 'TenekeRobot-ID202' ← SuTabancasi-ID002: Taban 15; Zırh formülü (Zırh 95) ile Net Hasar 7.69. Kalan Korku Enerjisi: 44.23/75.
+[12:23:01.131 | T+096.60s] 'TenekeRobot-ID202' sırılsıklam oldu: Yavaşlatma %50 (3 sn), hız 25 → 12.5 px/sn.
+[12:23:01.132 | T+098.58s] Su jeti isabet etti: 'TenekeRobot-ID202' ← SuTabancasi-ID002: Taban 15; Zırh formülü (Zırh 95) ile Net Hasar 7.69. Kalan Korku Enerjisi: 36.54/75.
+[12:23:01.132 | T+098.58s] 'TenekeRobot-ID202' sırılsıklam oldu: Yavaşlatma %50 (3 sn), hız 25 → 12.5 px/sn.
+[12:23:01.135 | T+100.58s] Su jeti isabet etti: 'TenekeRobot-ID202' ← SuTabancasi-ID002: Taban 15; Zırh formülü (Zırh 95) ile Net Hasar 7.69. Kalan Korku Enerjisi: 28.85/75.
+[12:23:01.135 | T+100.58s] 'TenekeRobot-ID202' sırılsıklam oldu: Yavaşlatma %50 (3 sn), hız 25 → 12.5 px/sn.
+[12:23:01.136 | T+102.62s] Su jeti isabet etti: 'TenekeRobot-ID202' ← SuTabancasi-ID002: Taban 15; Zırh formülü (Zırh 95) ile Net Hasar 7.69. Kalan Korku Enerjisi: 21.15/75.
+[12:23:01.136 | T+102.62s] 'TenekeRobot-ID202' sırılsıklam oldu: Yavaşlatma %50 (3 sn), hız 25 → 12.5 px/sn.
+[12:23:01.138 | T+104.35s] Savunucu 'SuTabancasi-ID002' hedef aldı: 'TenekeRobot-ID204' (öncelik: yatağa en yakın, kalan yol 954 px).
+[12:23:01.139 | T+104.67s] Su jeti isabet etti: 'TenekeRobot-ID204' ← SuTabancasi-ID002: Taban 15; Zırh formülü (Zırh 50) ile Net Hasar 10. Kalan Korku Enerjisi: 58.33/75.
+[12:23:01.139 | T+104.67s] 'TenekeRobot-ID204' sırılsıklam oldu: Yavaşlatma %50 (3 sn), hız 25 → 12.5 px/sn.
+[12:23:01.139 | T+106.73s] Su jeti isabet etti: 'TenekeRobot-ID204' ← SuTabancasi-ID002: Taban 15; Zırh formülü (Zırh 50) ile Net Hasar 10. Kalan Korku Enerjisi: 48.33/75.
+[12:23:01.139 | T+106.73s] 'TenekeRobot-ID204' sırılsıklam oldu: Yavaşlatma %50 (3 sn), hız 25 → 12.5 px/sn.
+[12:23:01.139 | T+108.38s] Savunucu 'SuTabancasi-ID002' hedef aldı: 'TenekeRobot-ID202' (öncelik: yatağa en yakın, kalan yol 875 px).
+[12:23:01.139 | T+108.65s] Su jeti isabet etti: 'TenekeRobot-ID202' ← SuTabancasi-ID002: Taban 15; Zırh formülü (Zırh 95) ile Net Hasar 7.69. Kalan Korku Enerjisi: 13.46/75.
+[12:23:01.139 | T+108.65s] 'TenekeRobot-ID202' sırılsıklam oldu: Yavaşlatma %50 (3 sn), hız 25 → 12.5 px/sn.
+[12:23:01.140 | T+110.53s] Savunucu 'BilyeMancinigi-ID003' hedef aldı: 'TenekeRobot-ID202' (öncelik: yatağa en yakın, kalan yol 845 px).
+[12:23:01.146 | T+110.63s] Su jeti isabet etti: 'TenekeRobot-ID202' ← SuTabancasi-ID002: Taban 15; Zırh formülü (Zırh 95) ile Net Hasar 7.69. Kalan Korku Enerjisi: 5.77/75.
+[12:23:01.147 | T+110.63s] 'TenekeRobot-ID202' sırılsıklam oldu: Yavaşlatma %50 (3 sn), hız 25 → 12.5 px/sn.
+[12:23:01.147 | T+111.07s] Savunucu 'BilyeMancinigi-ID003' bilyesi yere çarptı (uçanları hedefleyemez). Alan vuruşu: merkez 'TenekeRobot-ID202', yarıçap 50 px.
+[12:23:01.147 | T+111.07s] — Merkez: 'TenekeRobot-ID202' ← BilyeMancinigi-ID003: Taban 20; Zırh formülü (Zırh 95) ile Net Hasar 10.26. Kalan Korku Enerjisi: 0/75.
+[12:23:01.147 | T+111.07s] — Yakındaki: 'TenekeRobot-ID204' ← BilyeMancinigi-ID003: Taban 20; Zırh formülü (Zırh 50) ile Net Hasar 13.33. Kalan Korku Enerjisi: 35/75.
+[12:23:01.147 | T+111.07s] — Yakındaki: 'TenekeRobot-ID206' ← BilyeMancinigi-ID003: Taban 20; Zırh formülü (Zırh 79) ile Net Hasar 11.17. Kalan Korku Enerjisi: 52.65/75.
+[12:23:01.147 | T+111.07s] 'TenekeRobot-ID202' dağıldı (yenildi). Ödül +20 şeker. Toplam Şeker: 90.
+[12:23:01.148 | T+112.42s] Savunucu 'SuTabancasi-ID002' hedef aldı: 'TenekeRobot-ID204' (öncelik: yatağa en yakın, kalan yol 816 px).
+[12:23:01.149 | T+112.65s] Su jeti isabet etti: 'TenekeRobot-ID204' ← SuTabancasi-ID002: Taban 15; Zırh formülü (Zırh 50) ile Net Hasar 10. Kalan Korku Enerjisi: 25/75.
+[12:23:01.150 | T+112.65s] 'TenekeRobot-ID204' sırılsıklam oldu: Yavaşlatma %50 (3 sn), hız 25 → 12.5 px/sn.
+[12:23:01.150 | T+113.55s] Savunucu 'BilyeMancinigi-ID003' hedef aldı: 'TenekeRobot-ID204' (öncelik: yatağa en yakın, kalan yol 799 px).
+[12:23:01.150 | T+113.98s] Savunucu 'BilyeMancinigi-ID003' bilyesi yere çarptı (uçanları hedefleyemez). Alan vuruşu: merkez 'TenekeRobot-ID204', yarıçap 50 px.
+[12:23:01.150 | T+113.98s] — Merkez: 'TenekeRobot-ID204' ← BilyeMancinigi-ID003: Taban 20; Zırh formülü (Zırh 50) ile Net Hasar 13.33. Kalan Korku Enerjisi: 11.67/75.
+[12:23:01.150 | T+113.98s] — Yakındaki: 'TenekeRobot-ID206' ← BilyeMancinigi-ID003: Taban 20; Zırh formülü (Zırh 79) ile Net Hasar 11.17. Kalan Korku Enerjisi: 41.48/75.
+[12:23:01.151 | T+114.70s] Su jeti isabet etti: 'TenekeRobot-ID204' ← SuTabancasi-ID002: Taban 15; Zırh formülü (Zırh 50) ile Net Hasar 10. Kalan Korku Enerjisi: 1.67/75.
+[12:23:01.151 | T+114.70s] 'TenekeRobot-ID204' sırılsıklam oldu: Yavaşlatma %50 (3 sn), hız 25 → 12.5 px/sn.
+[12:23:01.151 | T+116.57s] Savunucu 'BilyeMancinigi-ID003' hedef aldı: 'TenekeRobot-ID206' (öncelik: yatağa en yakın, kalan yol 739 px).
+[12:23:01.151 | T+116.77s] Su jeti isabet etti: 'TenekeRobot-ID204' ← SuTabancasi-ID002: Taban 15; Zırh formülü (Zırh 50) ile Net Hasar 10. Kalan Korku Enerjisi: 0/75.
+[12:23:01.151 | T+116.77s] 'TenekeRobot-ID204' dağıldı (yenildi). Ödül +20 şeker. Toplam Şeker: 110.
+[12:23:01.151 | T+116.98s] Savunucu 'BilyeMancinigi-ID003' bilyesi yere çarptı (uçanları hedefleyemez). Alan vuruşu: merkez 'TenekeRobot-ID206', yarıçap 50 px.
+[12:23:01.151 | T+116.98s] — Merkez: 'TenekeRobot-ID206' ← BilyeMancinigi-ID003: Taban 20; Zırh formülü (Zırh 79) ile Net Hasar 11.17. Kalan Korku Enerjisi: 30.31/75.
+[12:23:01.151 | T+118.47s] Savunucu 'SuTabancasi-ID002' hedef aldı: 'TenekeRobot-ID208' (öncelik: yatağa en yakın, kalan yol 783 px).
+[12:23:01.152 | T+118.75s] Su jeti isabet etti: 'TenekeRobot-ID208' ← SuTabancasi-ID002: Taban 15; Zırh formülü (Zırh 59) ile Net Hasar 9.43. Kalan Korku Enerjisi: 52.99/75.
+[12:23:01.152 | T+118.75s] 'TenekeRobot-ID208' sırılsıklam oldu: Yavaşlatma %50 (3 sn), hız 25 → 12.5 px/sn.
+[12:23:01.152 | T+119.58s] Savunucu 'BilyeMancinigi-ID003' hedef aldı: 'TenekeRobot-ID208' (öncelik: yatağa en yakın, kalan yol 765 px).
+[12:23:01.159 | T+120.00s] Savunucu 'BilyeMancinigi-ID003' bilyesi yere çarptı (uçanları hedefleyemez). Alan vuruşu: merkez 'TenekeRobot-ID208', yarıçap 50 px.
+[12:23:01.159 | T+120.00s] — Merkez: 'TenekeRobot-ID208' ← BilyeMancinigi-ID003: Taban 20; Zırh formülü (Zırh 59) ile Net Hasar 12.58. Kalan Korku Enerjisi: 40.41/75.
+[12:23:01.160 | T+120.82s] Su jeti isabet etti: 'TenekeRobot-ID208' ← SuTabancasi-ID002: Taban 15; Zırh formülü (Zırh 59) ile Net Hasar 9.43. Kalan Korku Enerjisi: 30.97/75.
+[12:23:01.160 | T+120.82s] 'TenekeRobot-ID208' sırılsıklam oldu: Yavaşlatma %50 (3 sn), hız 25 → 12.5 px/sn.
+[12:23:01.160 | T+122.50s] Savunucu 'SuTabancasi-ID002' hedef aldı: 'TenekeRobot-ID210' (öncelik: yatağa en yakın, kalan yol 773 px).
+[12:23:01.160 | T+122.80s] Su jeti isabet etti: 'TenekeRobot-ID210' ← SuTabancasi-ID002: Taban 15; Zırh formülü (Zırh 93) ile Net Hasar 7.77. Kalan Korku Enerjisi: 59.46/75.
+[12:23:01.160 | T+122.80s] 'TenekeRobot-ID210' sırılsıklam oldu: Yavaşlatma %50 (3 sn), hız 25 → 12.5 px/sn.
+[12:23:01.160 | T+123.03s] Savunucu 'BilyeMancinigi-ID003' bilyesi yere çarptı (uçanları hedefleyemez). Alan vuruşu: merkez 'TenekeRobot-ID208', yarıçap 50 px.
+[12:23:01.161 | T+123.03s] — Merkez: 'TenekeRobot-ID208' ← BilyeMancinigi-ID003: Taban 20; Zırh formülü (Zırh 59) ile Net Hasar 12.58. Kalan Korku Enerjisi: 18.4/75.
+[12:23:01.161 | T+123.03s] — Yakındaki: 'TenekeRobot-ID210' ← BilyeMancinigi-ID003: Taban 20; Zırh formülü (Zırh 93) ile Net Hasar 10.36. Kalan Korku Enerjisi: 49.09/75.
+[12:23:01.161 | T+125.62s] Savunucu 'BilyeMancinigi-ID003' hedef aldı: 'TenekeRobot-ID210' (öncelik: yatağa en yakın, kalan yol 730 px).
+[12:23:01.161 | T+126.05s] Savunucu 'BilyeMancinigi-ID003' bilyesi yere çarptı (uçanları hedefleyemez). Alan vuruşu: merkez 'TenekeRobot-ID210', yarıçap 50 px.
+[12:23:01.161 | T+126.05s] — Merkez: 'TenekeRobot-ID210' ← BilyeMancinigi-ID003: Taban 20; Zırh formülü (Zırh 93) ile Net Hasar 10.36. Kalan Korku Enerjisi: 38.73/75.
+[12:23:01.162 | T+130.75s] Savunucu 'BilyeMancinigi-ID003' hedef aldı: 'TenekeRobot-ID206' (öncelik: yatağa en yakın, kalan yol 385 px).
+[12:23:01.162 | T+131.17s] Savunucu 'LastikSapan-ID004' hedef aldı: 'TenekeRobot-ID206' (öncelik: yatağa en yakın, kalan yol 374 px).
+[12:23:01.162 | T+131.23s] Savunucu 'BilyeMancinigi-ID003' bilyesi yere çarptı (uçanları hedefleyemez). Alan vuruşu: merkez 'TenekeRobot-ID206', yarıçap 50 px.
+[12:23:01.162 | T+131.23s] — Merkez: 'TenekeRobot-ID206' ← BilyeMancinigi-ID003: Taban 20; Zırh formülü (Zırh 79) ile Net Hasar 11.17. Kalan Korku Enerjisi: 19.13/75.
+[12:23:01.163 | T+131.50s] Sapan taşı isabet etti: 'TenekeRobot-ID206' ← LastikSapan-ID004: Taban 10 → Zırhlı cezası %50 → 5; Zırh formülü (Zırh 79) ile Net Hasar 2.79. Kalan Korku Enerjisi: 16.34/75.
+[12:23:01.163 | T+132.45s] Sapan taşı isabet etti: 'TenekeRobot-ID206' ← LastikSapan-ID004: Taban 10 → Zırhlı cezası %50 → 5; Zırh formülü (Zırh 79) ile Net Hasar 2.79. Kalan Korku Enerjisi: 13.55/75.
+[12:23:01.163 | T+133.43s] Sapan taşı isabet etti: 'TenekeRobot-ID206' ← LastikSapan-ID004: Taban 10 → Zırhlı cezası %50 → 5; Zırh formülü (Zırh 79) ile Net Hasar 2.79. Kalan Korku Enerjisi: 10.75/75.
+[12:23:01.163 | T+134.18s] Savunucu 'BilyeMancinigi-ID003' bilyesi yere çarptı (uçanları hedefleyemez). Alan vuruşu: merkez 'TenekeRobot-ID206', yarıçap 50 px.
+[12:23:01.163 | T+134.18s] — Merkez: 'TenekeRobot-ID206' ← BilyeMancinigi-ID003: Taban 20; Zırh formülü (Zırh 79) ile Net Hasar 11.17. Kalan Korku Enerjisi: 0/75.
+[12:23:01.163 | T+134.18s] 'TenekeRobot-ID206' dağıldı (yenildi). Ödül +20 şeker. Toplam Şeker: 130.
+[12:23:01.164 | T+136.92s] Savunucu 'BilyeMancinigi-ID003' hedef aldı: 'TenekeRobot-ID208' (öncelik: yatağa en yakın, kalan yol 385 px).
+[12:23:01.172 | T+137.33s] Savunucu 'LastikSapan-ID004' hedef aldı: 'TenekeRobot-ID208' (öncelik: yatağa en yakın, kalan yol 374 px).
+[12:23:01.172 | T+137.40s] Savunucu 'BilyeMancinigi-ID003' bilyesi yere çarptı (uçanları hedefleyemez). Alan vuruşu: merkez 'TenekeRobot-ID208', yarıçap 50 px.
+[12:23:01.173 | T+137.40s] — Merkez: 'TenekeRobot-ID208' ← BilyeMancinigi-ID003: Taban 20; Zırh formülü (Zırh 59) ile Net Hasar 12.58. Kalan Korku Enerjisi: 5.82/75.
+[12:23:01.173 | T+137.67s] Sapan taşı isabet etti: 'TenekeRobot-ID208' ← LastikSapan-ID004: Taban 10 → Zırhlı cezası %50 → 5; Zırh formülü (Zırh 59) ile Net Hasar 3.14. Kalan Korku Enerjisi: 2.67/75.
+[12:23:01.173 | T+138.62s] Sapan taşı isabet etti: 'TenekeRobot-ID208' ← LastikSapan-ID004: Taban 10 → Zırhlı cezası %50 → 5; Zırh formülü (Zırh 59) ile Net Hasar 3.14. Kalan Korku Enerjisi: 0/75.
+[12:23:01.173 | T+138.62s] 'TenekeRobot-ID208' dağıldı (yenildi). Ödül +20 şeker. Toplam Şeker: 150.
+[12:23:01.173 | T+139.93s] Savunucu 'BilyeMancinigi-ID003' hedef aldı: 'TenekeRobot-ID210' (öncelik: yatağa en yakın, kalan yol 374 px).
+[12:23:01.173 | T+139.93s] Savunucu 'LastikSapan-ID004' hedef aldı: 'TenekeRobot-ID210' (öncelik: yatağa en yakın, kalan yol 374 px).
+[12:23:01.173 | T+140.27s] Sapan taşı isabet etti: 'TenekeRobot-ID210' ← LastikSapan-ID004: Taban 10 → Zırhlı cezası %50 → 5; Zırh formülü (Zırh 93) ile Net Hasar 2.59. Kalan Korku Enerjisi: 36.14/75.
+[12:23:01.174 | T+140.40s] Savunucu 'BilyeMancinigi-ID003' bilyesi yere çarptı (uçanları hedefleyemez). Alan vuruşu: merkez 'TenekeRobot-ID210', yarıçap 50 px.
+[12:23:01.187 | T+140.40s] — Merkez: 'TenekeRobot-ID210' ← BilyeMancinigi-ID003: Taban 20; Zırh formülü (Zırh 93) ile Net Hasar 10.36. Kalan Korku Enerjisi: 25.78/75.
+[12:23:01.187 | T+141.22s] Sapan taşı isabet etti: 'TenekeRobot-ID210' ← LastikSapan-ID004: Taban 10 → Zırhlı cezası %50 → 5; Zırh formülü (Zırh 93) ile Net Hasar 2.59. Kalan Korku Enerjisi: 23.19/75.
+[12:23:01.187 | T+142.20s] Sapan taşı isabet etti: 'TenekeRobot-ID210' ← LastikSapan-ID004: Taban 10 → Zırhlı cezası %50 → 5; Zırh formülü (Zırh 93) ile Net Hasar 2.59. Kalan Korku Enerjisi: 20.6/75.
+[12:23:01.187 | T+143.18s] Sapan taşı isabet etti: 'TenekeRobot-ID210' ← LastikSapan-ID004: Taban 10 → Zırhlı cezası %50 → 5; Zırh formülü (Zırh 93) ile Net Hasar 2.59. Kalan Korku Enerjisi: 18.01/75.
+[12:23:01.188 | T+143.37s] Savunucu 'BilyeMancinigi-ID003' bilyesi yere çarptı (uçanları hedefleyemez). Alan vuruşu: merkez 'TenekeRobot-ID210', yarıçap 50 px.
+[12:23:01.188 | T+143.37s] — Merkez: 'TenekeRobot-ID210' ← BilyeMancinigi-ID003: Taban 20; Zırh formülü (Zırh 93) ile Net Hasar 10.36. Kalan Korku Enerjisi: 7.64/75.
+[12:23:01.192 | T+144.18s] Sapan taşı isabet etti: 'TenekeRobot-ID210' ← LastikSapan-ID004: Taban 10 → Zırhlı cezası %50 → 5; Zırh formülü (Zırh 93) ile Net Hasar 2.59. Kalan Korku Enerjisi: 5.05/75.
+[12:23:01.192 | T+145.20s] Sapan taşı isabet etti: 'TenekeRobot-ID210' ← LastikSapan-ID004: Taban 10 → Zırhlı cezası %50 → 5; Zırh formülü (Zırh 93) ile Net Hasar 2.59. Kalan Korku Enerjisi: 2.46/75.
+[12:23:01.192 | T+146.22s] Sapan taşı isabet etti: 'TenekeRobot-ID210' ← LastikSapan-ID004: Taban 10 → Zırhlı cezası %50 → 5; Zırh formülü (Zırh 93) ile Net Hasar 2.59. Kalan Korku Enerjisi: 0/75.
+[12:23:01.192 | T+146.22s] 'TenekeRobot-ID210' dağıldı (yenildi). Ödül +20 şeker. Toplam Şeker: 170.
+[12:23:01.192 | T+146.22s] Gece Yarısı Akını 2 püskürtüldü. Uyku: 100, Şeker: 170.
+[12:23:01.193 | T+146.22s] SON: Tüm akınlar püskürtüldü, haritada kabus kalmadı. OYUN KAZANILDI — KAZANDINIZ! (Kalan Uyku: 100, Toplam Şeker: 170)

@@ -1,0 +1,235 @@
+@startuml UykuKalesi_Sinif_Diyagrami
+' Uyku Kalesi — sınıf diyagramı (PlantUML)
+' Görsele çevirmek için: https://www.plantuml.com/plantuml  veya  IntelliJ "PlantUML Integration" eklentisi
+skinparam classAttributeIconSize 0
+skinparam nodesep 40
+skinparam ranksep 50
+skinparam packageStyle rectangle
+hide empty members
+
+package "uykukalesi.varlik  (oyun varlıkları)" {
+  interface Cizilebilir {
+    + ciz(g : Graphics2D) : void
+  }
+  interface SavasAlani {
+    + getSahadakiYaratiklar() : List<KabusYaratigi>
+    + firlatmaEkle(f : Firlatma) : void
+    + efektEkle(e : GorselEfekt) : void
+    + gunlugeYaz(olay : String) : void
+  }
+
+  abstract class OyunVarligi {
+    - kimlik : String
+    - x : double
+    - y : double
+    # OyunVarligi(kimlik, x, y)
+    + {abstract} getTurAdi() : String
+    + {abstract} getGorunenAd() : String
+    + {abstract} onizlemeCiz(g, cx, cy) : void
+    + getKimlik() : String
+    + getTamAd() : String
+    # konumuAyarla(x, y) : void
+    + uzaklik(diger : OyunVarligi) : double
+  }
+
+  abstract class KabusYaratigi {
+    - maksKorkuEnerjisi : double
+    - korkuEnerjisi : double
+    - temelAdimHizi : double
+    - zirhKaplamasi : int
+    - katedilenYol : double
+    - islaklikSuresi : double
+    - durum : Durum
+    + {abstract} getSekerOdulu() : int
+    + {abstract} getUykuHasari() : int
+    + {abstract} ucabilirMi() : boolean
+    # {abstract} govdeyiCiz(g, cx, cy, renk, saat) : void
+    + sahayaCik() : void
+    + ilerle(dt : double) : void
+    + hasarAl(netHasar : double) : double
+    + islat(sure : double) : void
+    + getAnlikAdimHizi() : double
+    + getYatagaKalanMesafe() : double
+    + zirhliMi() : boolean
+    + islakMi() : boolean
+    + ciz(g) : void  <<final, şablon metot>>
+  }
+  enum "KabusYaratigi.Durum" as Durum {
+    DOLAPTA_BEKLIYOR
+    SAHADA
+    DAGILDI
+    YATAGA_ULASTI
+  }
+
+  class TozCanavari <<Standart>> {
+    korku 50, hız 50, zırh 0
+    ödül 10, uyku hasarı 5
+  }
+  class TenekeRobot <<Zırhlı>> {
+    korku 75, hız 25, zırh 50–100
+    ödül 20, uyku hasarı 10
+  }
+  class GeceKelebegi <<Uçan>> {
+    korku 50, hız 75, zırh 0
+    ödül 15, uyku hasarı 5
+    + ucabilirMi() : true
+  }
+
+  abstract class OyuncakSavunucu {
+    - vurusGucu : int
+    - gorusMenzili : double
+    - atisAraligi : double
+    - sekerMaliyeti : int
+    - kalanDoldurma : double
+    + guncelle(dt, alan : SavasAlani) : void  <<final, şablon metot>>
+    # hedefSec(alan) : KabusYaratigi
+    + hedefAlabilirMi(y : KabusYaratigi) : boolean
+    # tabanHasarHesapla(hedef) : double
+    + {static} zirhFormuluUygula(hasar, zirh) : double
+    + netHasarHesapla(hedef) : double
+    # hasarUygula(hedef, alan, onEk) : double
+    + {abstract} isabetEt(hedef, x, y, alan) : void
+    + {abstract} mermiyiCiz(g, x, y) : void
+    # {abstract} govdeyiCiz(g, cx, cy, aci, anim) : void
+  }
+  class LastikSapan <<Okçu>> {
+    vuruş 10, her 1 sn, 50 şeker
+    # tabanHasarHesapla() : zırhlıya %50
+    + isabetEt() : tek hedef
+  }
+  class BilyeMancinigi <<Topçu>> {
+    vuruş 20, her 3 sn, 75 şeker
+    alan yarıçapı 50 px
+    + hedefAlabilirMi() : uçan değilse
+    + isabetEt() : alan hasarı
+  }
+  class SuTabancasi <<Buz>> {
+    vuruş 15, her 2 sn, 70 şeker
+    + isabetEt() : hasar + ıslatma (%50, 3 sn)
+  }
+
+  class Firlatma {
+    - kaynak : OyuncakSavunucu
+    - hedef : KabusYaratigi
+    - hiz : double
+    + guncelle(dt, alan) : void
+    + tamamlandiMi() : boolean
+  }
+  class GorselEfekt
+}
+
+package "uykukalesi.motor  (simülasyon motoru — Swing bilmez)" {
+  interface OyunOlayDinleyicisi {
+    + gunlukSatiriEklendi(satir : String) : void
+    + oyunBitti(kazanildi : boolean) : void
+  }
+  class SimulasyonMotoru {
+    + BASLANGIC_UYKU = 100
+    + BASLANGIC_SEKER = 200
+    - uykuDerinligi : int
+    - seker : int
+    - durum : Durum
+    + baslat() : void
+    + savunucuInsaEt(tur, yuva) : InsaSonucu
+    + akiniBaslat() : void
+    + guncelle(dt : double) : void
+    + satinAlinabilirMi(tur) : boolean
+  }
+  enum "SimulasyonMotoru.Durum" as MotorDurum {
+    HAZIRLIK
+    AKIN_SURUYOR
+    AKIN_ARASI
+    KAZANILDI
+    KAYBEDILDI
+  }
+  class AkinYoneticisi {
+    - akinlar : List<List<KabusYaratigi>>
+    - kurallariDogrula() : void
+    + sonrakiAkiniBaslat() : void
+    + guncelle(dt) : KabusYaratigi
+  }
+  class Harita {
+    - senaryoAdi : String
+    + {static} geceYarisiKoridoru() : Harita
+    + yuvaBul(x, y) : OyuncakYuvasi
+  }
+  class Yol {
+    - noktalar : List<Point2D.Double>
+    + noktaBul(mesafe) : Point2D.Double
+    + getToplamUzunluk() : double
+  }
+  class OyuncakYuvasi {
+    - numara : int
+    - savunucu : OyuncakSavunucu
+    + bosMu() : boolean
+  }
+  enum SavunucuTuru {
+    LASTIK_SAPAN
+    BILYE_MANCINIGI
+    SU_TABANCASI
+    + {abstract} uret(kimlik, x, y) : OyuncakSavunucu
+  }
+  enum InsaSonucu
+}
+
+package "uykukalesi.kayit" {
+  class SavunmaGunlugu {
+    + {static} DOSYA_ADI = "savunma_gunlugu.txt"
+    + {static} ac() : SavunmaGunlugu
+    + yaz(sn, olay) : String
+  }
+  class Bicim
+}
+
+package "uykukalesi.arayuz  (Swing ön yüz)" {
+  class AnaPencere
+  class AnaMenuPaneli
+  class OyunEkrani {
+    - oyunSaati : javax.swing.Timer (16 ms)
+  }
+  class HaritaPaneli
+  class OyunButonu
+}
+
+' --- Kalıtım ---
+Cizilebilir <|.. OyunVarligi
+Cizilebilir <|.. Firlatma
+OyunVarligi <|-- KabusYaratigi
+OyunVarligi <|-- OyuncakSavunucu
+KabusYaratigi <|-- TozCanavari
+KabusYaratigi <|-- TenekeRobot
+KabusYaratigi <|-- GeceKelebegi
+OyuncakSavunucu <|-- LastikSapan
+OyuncakSavunucu <|-- BilyeMancinigi
+OyuncakSavunucu <|-- SuTabancasi
+KabusYaratigi +-- Durum
+SimulasyonMotoru +-- MotorDurum
+
+' --- Arayüz gerçekleştirme ---
+SavasAlani <|.. SimulasyonMotoru
+OyunOlayDinleyicisi <|.. OyunEkrani
+
+' --- İlişkiler ---
+SimulasyonMotoru *-- AkinYoneticisi
+SimulasyonMotoru o-- Harita
+SimulasyonMotoru o-- "0..*" OyuncakSavunucu
+SimulasyonMotoru o-- "0..*" Firlatma
+SimulasyonMotoru --> SavunmaGunlugu
+SimulasyonMotoru --> OyunOlayDinleyicisi : olay bildirir >
+Harita *-- Yol
+Harita *-- "10" OyuncakYuvasi
+OyuncakYuvasi o-- "0..1" OyuncakSavunucu
+AkinYoneticisi *-- "2 akın" KabusYaratigi
+KabusYaratigi --> Yol : takip eder >
+Firlatma --> OyuncakSavunucu
+Firlatma --> KabusYaratigi
+OyuncakSavunucu ..> SavasAlani : kullanır
+SavunucuTuru ..> OyuncakSavunucu : üretir (fabrika)
+
+AnaPencere *-- AnaMenuPaneli
+AnaPencere *-- OyunEkrani
+OyunEkrani *-- HaritaPaneli
+OyunEkrani --> SimulasyonMotoru : komut + her kare guncelle(dt)
+HaritaPaneli --> SimulasyonMotoru : durumu okur, ciz()
+OyunEkrani *-- "6" OyunButonu
+@enduml

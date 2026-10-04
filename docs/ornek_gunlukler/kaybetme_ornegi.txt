@@ -1,0 +1,40 @@
+==== UYKU KALESİ — SAVUNMA GÜNLÜĞÜ ====
+Kayıt tarihi: 02.10.2026 12:23:00
+Satır biçimi: [gerçek saat | simülasyon zamanı] olay
+
+[12:23:00.592 | T+000.00s] Simülasyon Başladı. Senaryo: 'Gece Yarısı Koridoru'. Başlangıç Uyku Derinliği (Can): 100, Şeker (Para): 200.
+[12:23:00.640 | T+000.00s] Dolapta hazırlanan Gece Yarısı Akını 1: TozCanavari x2, GeceKelebegi x1, TenekeRobot x1; Toplam: 4 → TozCanavari-ID101, GeceKelebegi-ID102, TenekeRobot-ID103 (Zırh 76), TozCanavari-ID104.
+[12:23:00.640 | T+000.00s] Dolapta hazırlanan Gece Yarısı Akını 2: TozCanavari x3, TenekeRobot x5, GeceKelebegi x2; Toplam: 10 → TozCanavari-ID201, TenekeRobot-ID202 (Zırh 95), GeceKelebegi-ID203, TenekeRobot-ID204 (Zırh 50), TozCanavari-ID205, TenekeRobot-ID206 (Zırh 79), GeceKelebegi-ID207, TenekeRobot-ID208 (Zırh 59), TozCanavari-ID209, TenekeRobot-ID210 (Zırh 93).
+[12:23:00.643 | T+000.00s] Gece Yarısı Akını 1 Başladı! Dolap kapısı aralandı. (Dağılım: TozCanavari x2, GeceKelebegi x1, TenekeRobot x1; Toplam: 4)
+[12:23:00.667 | T+000.02s] Kabus 'TozCanavari-ID101' dolaptan çıktı (Korku Enerjisi: 50/50, Zırh: 0, Hız: 50 px/sn, yerde).
+[12:23:00.669 | T+001.83s] Kabus 'GeceKelebegi-ID102' dolaptan çıktı (Korku Enerjisi: 50/50, Zırh: 0, Hız: 75 px/sn, uçuyor).
+[12:23:00.672 | T+003.65s] Kabus 'TenekeRobot-ID103' dolaptan çıktı (Korku Enerjisi: 75/75, Zırh: 76, Hız: 25 px/sn, yerde).
+[12:23:00.672 | T+005.47s] Kabus 'TozCanavari-ID104' dolaptan çıktı (Korku Enerjisi: 50/50, Zırh: 0, Hız: 50 px/sn, yerde).
+[12:23:00.684 | T+028.25s] 'GeceKelebegi-ID102' yatağa ulaştı! Uyku Derinliği (Can): 95 (-5).
+[12:23:00.686 | T+039.65s] 'TozCanavari-ID101' yatağa ulaştı! Uyku Derinliği (Can): 90 (-5).
+[12:23:00.687 | T+045.10s] 'TozCanavari-ID104' yatağa ulaştı! Uyku Derinliği (Can): 85 (-5).
+[12:23:00.694 | T+082.92s] 'TenekeRobot-ID103' yatağa ulaştı! Uyku Derinliği (Can): 75 (-10).
+[12:23:00.707 | T+082.92s] Gece Yarısı Akını 1 püskürtüldü. Uyku: 75, Şeker: 200.
+[12:23:00.707 | T+082.92s] Sonraki akına 10 sn var; savunmayı güçlendirme zamanı.
+[12:23:00.707 | T+092.92s] Gece Yarısı Akını 2 Başladı! Dolap kapısı aralandı. (Dağılım: TozCanavari x3, TenekeRobot x5, GeceKelebegi x2; Toplam: 10)
+[12:23:00.708 | T+092.92s] Kabus 'TozCanavari-ID201' dolaptan çıktı (Korku Enerjisi: 50/50, Zırh: 0, Hız: 50 px/sn, yerde).
+[12:23:00.708 | T+094.73s] Kabus 'TenekeRobot-ID202' dolaptan çıktı (Korku Enerjisi: 75/75, Zırh: 95, Hız: 25 px/sn, yerde).
+[12:23:00.713 | T+096.55s] Kabus 'GeceKelebegi-ID203' dolaptan çıktı (Korku Enerjisi: 50/50, Zırh: 0, Hız: 75 px/sn, uçuyor).
+[12:23:00.714 | T+098.37s] Kabus 'TenekeRobot-ID204' dolaptan çıktı (Korku Enerjisi: 75/75, Zırh: 50, Hız: 25 px/sn, yerde).
+[12:23:00.714 | T+100.18s] Kabus 'TozCanavari-ID205' dolaptan çıktı (Korku Enerjisi: 50/50, Zırh: 0, Hız: 50 px/sn, yerde).
+[12:23:00.714 | T+102.00s] Kabus 'TenekeRobot-ID206' dolaptan çıktı (Korku Enerjisi: 75/75, Zırh: 79, Hız: 25 px/sn, yerde).
+[12:23:00.714 | T+103.82s] Kabus 'GeceKelebegi-ID207' dolaptan çıktı (Korku Enerjisi: 50/50, Zırh: 0, Hız: 75 px/sn, uçuyor).
+[12:23:00.715 | T+105.63s] Kabus 'TenekeRobot-ID208' dolaptan çıktı (Korku Enerjisi: 75/75, Zırh: 59, Hız: 25 px/sn, yerde).
+[12:23:00.715 | T+107.45s] Kabus 'TozCanavari-ID209' dolaptan çıktı (Korku Enerjisi: 50/50, Zırh: 0, Hız: 50 px/sn, yerde).
+[12:23:00.715 | T+109.27s] Kabus 'TenekeRobot-ID210' dolaptan çıktı (Korku Enerjisi: 75/75, Zırh: 93, Hız: 25 px/sn, yerde).
+[12:23:00.716 | T+122.97s] 'GeceKelebegi-ID203' yatağa ulaştı! Uyku Derinliği (Can): 70 (-5).
+[12:23:00.717 | T+130.23s] 'GeceKelebegi-ID207' yatağa ulaştı! Uyku Derinliği (Can): 65 (-5).
+[12:23:00.717 | T+132.55s] 'TozCanavari-ID201' yatağa ulaştı! Uyku Derinliği (Can): 60 (-5).
+[12:23:00.718 | T+139.82s] 'TozCanavari-ID205' yatağa ulaştı! Uyku Derinliği (Can): 55 (-5).
+[12:23:00.718 | T+147.08s] 'TozCanavari-ID209' yatağa ulaştı! Uyku Derinliği (Can): 50 (-5).
+[12:23:00.719 | T+174.00s] 'TenekeRobot-ID202' yatağa ulaştı! Uyku Derinliği (Can): 40 (-10).
+[12:23:00.720 | T+177.63s] 'TenekeRobot-ID204' yatağa ulaştı! Uyku Derinliği (Can): 30 (-10).
+[12:23:00.720 | T+181.27s] 'TenekeRobot-ID206' yatağa ulaştı! Uyku Derinliği (Can): 20 (-10).
+[12:23:00.724 | T+184.90s] 'TenekeRobot-ID208' yatağa ulaştı! Uyku Derinliği (Can): 10 (-10).
+[12:23:00.725 | T+188.53s] 'TenekeRobot-ID210' yatağa ulaştı! Uyku Derinliği (Can): 0 (-10).
+[12:23:00.726 | T+188.53s] SON: Çocuk kabuslarla uyandı! OYUN KAYBEDİLDİ — KAYBETTİNİZ. (Kalan Uyku: 0, Toplam Şeker: 200)

@@ -1,0 +1,103 @@
+==== UYKU KALESİ — SAVUNMA GÜNLÜĞÜ ====
+Kayıt tarihi: 02.10.2026 12:23:01
+Satır biçimi: [gerçek saat | simülasyon zamanı] olay
+
+[12:23:01.407 | T+000.00s] Simülasyon Başladı. Senaryo: 'Gece Yarısı Koridoru'. Başlangıç Uyku Derinliği (Can): 100, Şeker (Para): 200.
+[12:23:01.436 | T+000.00s] Dolapta hazırlanan Gece Yarısı Akını 1: TozCanavari x2, GeceKelebegi x1, TenekeRobot x1; Toplam: 4 → TozCanavari-ID101, GeceKelebegi-ID102, TenekeRobot-ID103 (Zırh 76), TozCanavari-ID104.
+[12:23:01.437 | T+000.00s] Dolapta hazırlanan Gece Yarısı Akını 2: TozCanavari x3, TenekeRobot x5, GeceKelebegi x2; Toplam: 10 → TozCanavari-ID201, TenekeRobot-ID202 (Zırh 95), GeceKelebegi-ID203, TenekeRobot-ID204 (Zırh 50), TozCanavari-ID205, TenekeRobot-ID206 (Zırh 79), GeceKelebegi-ID207, TenekeRobot-ID208 (Zırh 59), TozCanavari-ID209, TenekeRobot-ID210 (Zırh 93).
+[12:23:01.452 | T+000.00s] Kullanıcı, (170, 175) konumuna (Oyuncak Yuvası #1) 'BilyeMancinigi-ID001' kurdu. Maliyet: 75. Kalan Şeker: 125.
+[12:23:01.467 | T+000.00s] Gece Yarısı Akını 1 Başladı! Dolap kapısı aralandı. (Dağılım: TozCanavari x2, GeceKelebegi x1, TenekeRobot x1; Toplam: 4)
+[12:23:01.483 | T+000.02s] Kabus 'TozCanavari-ID101' dolaptan çıktı (Korku Enerjisi: 50/50, Zırh: 0, Hız: 50 px/sn, yerde).
+[12:23:01.486 | T+000.68s] Savunucu 'BilyeMancinigi-ID001' hedef aldı: 'TozCanavari-ID101' (öncelik: yatağa en yakın, kalan yol 1948 px).
+[12:23:01.489 | T+001.13s] Savunucu 'BilyeMancinigi-ID001' bilyesi yere çarptı (uçanları hedefleyemez). Alan vuruşu: merkez 'TozCanavari-ID101', yarıçap 50 px.
+[12:23:01.489 | T+001.13s] — Merkez: 'TozCanavari-ID101' ← BilyeMancinigi-ID001: Taban 20; zırh yok, Net Hasar 20. Kalan Korku Enerjisi: 30/50.
+[12:23:01.489 | T+001.83s] Kabus 'GeceKelebegi-ID102' dolaptan çıktı (Korku Enerjisi: 50/50, Zırh: 0, Hız: 75 px/sn, uçuyor).
+[12:23:01.490 | T+003.65s] Kabus 'TenekeRobot-ID103' dolaptan çıktı (Korku Enerjisi: 75/75, Zırh: 76, Hız: 25 px/sn, yerde).
+[12:23:01.490 | T+003.70s] Savunucu 'BilyeMancinigi-ID001' uçan 'GeceKelebegi-ID102' yaratığını hedefleyemez; atladı (bilyeler yerde yuvarlanır).
+[12:23:01.490 | T+004.08s] Savunucu 'BilyeMancinigi-ID001' bilyesi yere çarptı (uçanları hedefleyemez). Alan vuruşu: merkez 'TozCanavari-ID101', yarıçap 50 px.
+[12:23:01.491 | T+004.08s] — Merkez: 'TozCanavari-ID101' ← BilyeMancinigi-ID001: Taban 20; zırh yok, Net Hasar 20. Kalan Korku Enerjisi: 10/50.
+[12:23:01.491 | T+005.47s] Kabus 'TozCanavari-ID104' dolaptan çıktı (Korku Enerjisi: 50/50, Zırh: 0, Hız: 50 px/sn, yerde).
+[12:23:01.492 | T+007.15s] Savunucu 'BilyeMancinigi-ID001' bilyesi yere çarptı (uçanları hedefleyemez). Alan vuruşu: merkez 'TozCanavari-ID101', yarıçap 50 px.
+[12:23:01.492 | T+007.15s] — Merkez: 'TozCanavari-ID101' ← BilyeMancinigi-ID001: Taban 20; zırh yok, Net Hasar 20. Kalan Korku Enerjisi: 0/50.
+[12:23:01.495 | T+007.15s] 'TozCanavari-ID101' dağıldı (yenildi). Ödül +10 şeker. Toplam Şeker: 135.
+[12:23:01.500 | T+009.73s] Savunucu 'BilyeMancinigi-ID001' hedef aldı: 'TozCanavari-ID104' (öncelik: yatağa en yakın, kalan yol 1768 px).
+[12:23:01.501 | T+010.13s] Savunucu 'BilyeMancinigi-ID001' bilyesi yere çarptı (uçanları hedefleyemez). Alan vuruşu: merkez 'TozCanavari-ID104', yarıçap 50 px.
+[12:23:01.501 | T+010.13s] — Merkez: 'TozCanavari-ID104' ← BilyeMancinigi-ID001: Taban 20; zırh yok, Net Hasar 20. Kalan Korku Enerjisi: 30/50.
+[12:23:01.504 | T+013.18s] Savunucu 'BilyeMancinigi-ID001' bilyesi yere çarptı (uçanları hedefleyemez). Alan vuruşu: merkez 'TozCanavari-ID104', yarıçap 50 px.
+[12:23:01.504 | T+013.18s] — Merkez: 'TozCanavari-ID104' ← BilyeMancinigi-ID001: Taban 20; zırh yok, Net Hasar 20. Kalan Korku Enerjisi: 10/50.
+[12:23:01.507 | T+016.27s] Savunucu 'BilyeMancinigi-ID001' bilyesi yere çarptı (uçanları hedefleyemez). Alan vuruşu: merkez 'TozCanavari-ID104', yarıçap 50 px.
+[12:23:01.507 | T+016.27s] — Merkez: 'TozCanavari-ID104' ← BilyeMancinigi-ID001: Taban 20; zırh yok, Net Hasar 20. Kalan Korku Enerjisi: 0/50.
+[12:23:01.508 | T+016.27s] 'TozCanavari-ID104' dağıldı (yenildi). Ödül +10 şeker. Toplam Şeker: 145.
+[12:23:01.508 | T+018.78s] Savunucu 'BilyeMancinigi-ID001' hedef aldı: 'TenekeRobot-ID103' (öncelik: yatağa en yakın, kalan yol 1603 px).
+[12:23:01.508 | T+019.20s] Savunucu 'BilyeMancinigi-ID001' bilyesi yere çarptı (uçanları hedefleyemez). Alan vuruşu: merkez 'TenekeRobot-ID103', yarıçap 50 px.
+[12:23:01.508 | T+019.20s] — Merkez: 'TenekeRobot-ID103' ← BilyeMancinigi-ID001: Taban 20; Zırh formülü (Zırh 76) ile Net Hasar 11.36. Kalan Korku Enerjisi: 63.64/75.
+[12:23:01.509 | T+022.15s] Savunucu 'BilyeMancinigi-ID001' bilyesi yere çarptı (uçanları hedefleyemez). Alan vuruşu: merkez 'TenekeRobot-ID103', yarıçap 50 px.
+[12:23:01.509 | T+022.15s] — Merkez: 'TenekeRobot-ID103' ← BilyeMancinigi-ID001: Taban 20; Zırh formülü (Zırh 76) ile Net Hasar 11.36. Kalan Korku Enerjisi: 52.27/75.
+[12:23:01.512 | T+025.33s] Savunucu 'BilyeMancinigi-ID001' bilyesi yere çarptı (uçanları hedefleyemez). Alan vuruşu: merkez 'TenekeRobot-ID103', yarıçap 50 px.
+[12:23:01.516 | T+025.33s] — Merkez: 'TenekeRobot-ID103' ← BilyeMancinigi-ID001: Taban 20; Zırh formülü (Zırh 76) ile Net Hasar 11.36. Kalan Korku Enerjisi: 40.91/75.
+[12:23:01.517 | T+028.25s] 'GeceKelebegi-ID102' yatağa ulaştı! Uyku Derinliği (Can): 95 (-5).
+[12:23:01.544 | T+082.92s] 'TenekeRobot-ID103' yatağa ulaştı! Uyku Derinliği (Can): 85 (-10).
+[12:23:01.557 | T+082.92s] Gece Yarısı Akını 1 püskürtüldü. Uyku: 85, Şeker: 145.
+[12:23:01.558 | T+082.92s] Sonraki akına 10 sn var; savunmayı güçlendirme zamanı.
+[12:23:01.558 | T+092.92s] Gece Yarısı Akını 2 Başladı! Dolap kapısı aralandı. (Dağılım: TozCanavari x3, TenekeRobot x5, GeceKelebegi x2; Toplam: 10)
+[12:23:01.559 | T+092.92s] Kabus 'TozCanavari-ID201' dolaptan çıktı (Korku Enerjisi: 50/50, Zırh: 0, Hız: 50 px/sn, yerde).
+[12:23:01.559 | T+093.58s] Savunucu 'BilyeMancinigi-ID001' hedef aldı: 'TozCanavari-ID201' (öncelik: yatağa en yakın, kalan yol 1948 px).
+[12:23:01.560 | T+094.03s] Savunucu 'BilyeMancinigi-ID001' bilyesi yere çarptı (uçanları hedefleyemez). Alan vuruşu: merkez 'TozCanavari-ID201', yarıçap 50 px.
+[12:23:01.564 | T+094.03s] — Merkez: 'TozCanavari-ID201' ← BilyeMancinigi-ID001: Taban 20; zırh yok, Net Hasar 20. Kalan Korku Enerjisi: 30/50.
+[12:23:01.565 | T+094.73s] Kabus 'TenekeRobot-ID202' dolaptan çıktı (Korku Enerjisi: 75/75, Zırh: 95, Hız: 25 px/sn, yerde).
+[12:23:01.565 | T+096.55s] Kabus 'GeceKelebegi-ID203' dolaptan çıktı (Korku Enerjisi: 50/50, Zırh: 0, Hız: 75 px/sn, uçuyor).
+[12:23:01.565 | T+096.98s] Savunucu 'BilyeMancinigi-ID001' bilyesi yere çarptı (uçanları hedefleyemez). Alan vuruşu: merkez 'TozCanavari-ID201', yarıçap 50 px.
+[12:23:01.565 | T+096.98s] — Merkez: 'TozCanavari-ID201' ← BilyeMancinigi-ID001: Taban 20; zırh yok, Net Hasar 20. Kalan Korku Enerjisi: 10/50.
+[12:23:01.566 | T+098.37s] Kabus 'TenekeRobot-ID204' dolaptan çıktı (Korku Enerjisi: 75/75, Zırh: 50, Hız: 25 px/sn, yerde).
+[12:23:01.566 | T+099.62s] Savunucu 'BilyeMancinigi-ID001' uçan 'GeceKelebegi-ID203' yaratığını hedefleyemez; atladı (bilyeler yerde yuvarlanır).
+[12:23:01.567 | T+100.05s] Savunucu 'BilyeMancinigi-ID001' bilyesi yere çarptı (uçanları hedefleyemez). Alan vuruşu: merkez 'TozCanavari-ID201', yarıçap 50 px.
+[12:23:01.567 | T+100.05s] — Merkez: 'TozCanavari-ID201' ← BilyeMancinigi-ID001: Taban 20; zırh yok, Net Hasar 20. Kalan Korku Enerjisi: 0/50.
+[12:23:01.567 | T+100.05s] 'TozCanavari-ID201' dağıldı (yenildi). Ödül +10 şeker. Toplam Şeker: 155.
+[12:23:01.567 | T+100.18s] Kabus 'TozCanavari-ID205' dolaptan çıktı (Korku Enerjisi: 50/50, Zırh: 0, Hız: 50 px/sn, yerde).
+[12:23:01.567 | T+102.00s] Kabus 'TenekeRobot-ID206' dolaptan çıktı (Korku Enerjisi: 75/75, Zırh: 79, Hız: 25 px/sn, yerde).
+[12:23:01.567 | T+102.63s] Savunucu 'BilyeMancinigi-ID001' hedef aldı: 'TenekeRobot-ID202' (öncelik: yatağa en yakın, kalan yol 1784 px).
+[12:23:01.568 | T+103.02s] Savunucu 'BilyeMancinigi-ID001' bilyesi yere çarptı (uçanları hedefleyemez). Alan vuruşu: merkez 'TenekeRobot-ID202', yarıçap 50 px.
+[12:23:01.568 | T+103.02s] — Merkez: 'TenekeRobot-ID202' ← BilyeMancinigi-ID001: Taban 20; Zırh formülü (Zırh 95) ile Net Hasar 10.26. Kalan Korku Enerjisi: 64.74/75.
+[12:23:01.572 | T+103.82s] Kabus 'GeceKelebegi-ID207' dolaptan çıktı (Korku Enerjisi: 50/50, Zırh: 0, Hız: 75 px/sn, uçuyor).
+[12:23:01.572 | T+105.63s] Kabus 'TenekeRobot-ID208' dolaptan çıktı (Korku Enerjisi: 75/75, Zırh: 59, Hız: 25 px/sn, yerde).
+[12:23:01.573 | T+105.65s] Savunucu 'BilyeMancinigi-ID001' uçan 'GeceKelebegi-ID207' yaratığını hedefleyemez; atladı (bilyeler yerde yuvarlanır).
+[12:23:01.573 | T+105.65s] Savunucu 'BilyeMancinigi-ID001' hedef aldı: 'TozCanavari-ID205' (öncelik: yatağa en yakın, kalan yol 1708 px).
+[12:23:01.573 | T+105.98s] Savunucu 'BilyeMancinigi-ID001' bilyesi yere çarptı (uçanları hedefleyemez). Alan vuruşu: merkez 'TozCanavari-ID205', yarıçap 50 px.
+[12:23:01.573 | T+105.98s] — Yakındaki: 'TenekeRobot-ID202' ← BilyeMancinigi-ID001: Taban 20; Zırh formülü (Zırh 95) ile Net Hasar 10.26. Kalan Korku Enerjisi: 54.49/75.
+[12:23:01.573 | T+105.98s] — Merkez: 'TozCanavari-ID205' ← BilyeMancinigi-ID001: Taban 20; zırh yok, Net Hasar 20. Kalan Korku Enerjisi: 30/50.
+[12:23:01.573 | T+107.45s] Kabus 'TozCanavari-ID209' dolaptan çıktı (Korku Enerjisi: 50/50, Zırh: 0, Hız: 50 px/sn, yerde).
+[12:23:01.574 | T+109.02s] Savunucu 'BilyeMancinigi-ID001' bilyesi yere çarptı (uçanları hedefleyemez). Alan vuruşu: merkez 'TozCanavari-ID205', yarıçap 50 px.
+[12:23:01.574 | T+109.02s] — Merkez: 'TozCanavari-ID205' ← BilyeMancinigi-ID001: Taban 20; zırh yok, Net Hasar 20. Kalan Korku Enerjisi: 10/50.
+[12:23:01.574 | T+109.27s] Kabus 'TenekeRobot-ID210' dolaptan çıktı (Korku Enerjisi: 75/75, Zırh: 93, Hız: 25 px/sn, yerde).
+[12:23:01.574 | T+111.68s] Savunucu 'BilyeMancinigi-ID001' hedef aldı: 'TenekeRobot-ID202' (öncelik: yatağa en yakın, kalan yol 1558 px).
+[12:23:01.574 | T+112.03s] Savunucu 'BilyeMancinigi-ID001' bilyesi yere çarptı (uçanları hedefleyemez). Alan vuruşu: merkez 'TenekeRobot-ID202', yarıçap 50 px.
+[12:23:01.574 | T+112.03s] — Merkez: 'TenekeRobot-ID202' ← BilyeMancinigi-ID001: Taban 20; Zırh formülü (Zırh 95) ile Net Hasar 10.26. Kalan Korku Enerjisi: 44.23/75.
+[12:23:01.575 | T+115.12s] Savunucu 'BilyeMancinigi-ID001' bilyesi yere çarptı (uçanları hedefleyemez). Alan vuruşu: merkez 'TenekeRobot-ID202', yarıçap 50 px.
+[12:23:01.575 | T+115.12s] — Merkez: 'TenekeRobot-ID202' ← BilyeMancinigi-ID001: Taban 20; Zırh formülü (Zırh 95) ile Net Hasar 10.26. Kalan Korku Enerjisi: 33.97/75.
+[12:23:01.575 | T+117.72s] Savunucu 'BilyeMancinigi-ID001' hedef aldı: 'TozCanavari-ID209' (öncelik: yatağa en yakın, kalan yol 1468 px).
+[12:23:01.575 | T+118.22s] Savunucu 'BilyeMancinigi-ID001' bilyesi yere çarptı (uçanları hedefleyemez). Alan vuruşu: merkez 'TozCanavari-ID209', yarıçap 50 px.
+[12:23:01.576 | T+118.22s] — Yakındaki: 'TenekeRobot-ID202' ← BilyeMancinigi-ID001: Taban 20; Zırh formülü (Zırh 95) ile Net Hasar 10.26. Kalan Korku Enerjisi: 23.72/75.
+[12:23:01.576 | T+118.22s] — Yakındaki: 'TenekeRobot-ID204' ← BilyeMancinigi-ID001: Taban 20; Zırh formülü (Zırh 50) ile Net Hasar 13.33. Kalan Korku Enerjisi: 61.67/75.
+[12:23:01.581 | T+118.22s] — Merkez: 'TozCanavari-ID209' ← BilyeMancinigi-ID001: Taban 20; zırh yok, Net Hasar 20. Kalan Korku Enerjisi: 30/50.
+[12:23:01.582 | T+120.73s] Savunucu 'BilyeMancinigi-ID001' hedef aldı: 'TenekeRobot-ID206' (öncelik: yatağa en yakın, kalan yol 1513 px).
+[12:23:01.582 | T+121.08s] Savunucu 'BilyeMancinigi-ID001' bilyesi yere çarptı (uçanları hedefleyemez). Alan vuruşu: merkez 'TenekeRobot-ID206', yarıçap 50 px.
+[12:23:01.584 | T+121.08s] — Merkez: 'TenekeRobot-ID206' ← BilyeMancinigi-ID001: Taban 20; Zırh formülü (Zırh 79) ile Net Hasar 11.17. Kalan Korku Enerjisi: 63.83/75.
+[12:23:01.585 | T+122.97s] 'GeceKelebegi-ID203' yatağa ulaştı! Uyku Derinliği (Can): 80 (-5).
+[12:23:01.585 | T+124.32s] Savunucu 'BilyeMancinigi-ID001' bilyesi yere çarptı (uçanları hedefleyemez). Alan vuruşu: merkez 'TenekeRobot-ID206', yarıçap 50 px.
+[12:23:01.585 | T+124.32s] — Merkez: 'TenekeRobot-ID206' ← BilyeMancinigi-ID001: Taban 20; Zırh formülü (Zırh 79) ile Net Hasar 11.17. Kalan Korku Enerjisi: 52.65/75.
+[12:23:01.585 | T+126.77s] Savunucu 'BilyeMancinigi-ID001' hedef aldı: 'TenekeRobot-ID208' (öncelik: yatağa en yakın, kalan yol 1453 px).
+[12:23:01.585 | T+127.27s] Savunucu 'BilyeMancinigi-ID001' bilyesi yere çarptı (uçanları hedefleyemez). Alan vuruşu: merkez 'TenekeRobot-ID208', yarıçap 50 px.
+[12:23:01.586 | T+127.27s] — Merkez: 'TenekeRobot-ID208' ← BilyeMancinigi-ID001: Taban 20; Zırh formülü (Zırh 59) ile Net Hasar 12.58. Kalan Korku Enerjisi: 62.42/75.
+[12:23:01.586 | T+129.78s] Savunucu 'BilyeMancinigi-ID001' hedef aldı: 'TenekeRobot-ID210' (öncelik: yatağa en yakın, kalan yol 1469 px).
+[12:23:01.586 | T+130.23s] Savunucu 'BilyeMancinigi-ID001' bilyesi yere çarptı (uçanları hedefleyemez). Alan vuruşu: merkez 'TenekeRobot-ID210', yarıçap 50 px.
+[12:23:01.586 | T+130.23s] — Merkez: 'TenekeRobot-ID210' ← BilyeMancinigi-ID001: Taban 20; Zırh formülü (Zırh 93) ile Net Hasar 10.36. Kalan Korku Enerjisi: 64.64/75.
+[12:23:01.586 | T+130.23s] 'GeceKelebegi-ID207' yatağa ulaştı! Uyku Derinliği (Can): 75 (-5).
+[12:23:01.587 | T+139.82s] 'TozCanavari-ID205' yatağa ulaştı! Uyku Derinliği (Can): 70 (-5).
+[12:23:01.596 | T+147.08s] 'TozCanavari-ID209' yatağa ulaştı! Uyku Derinliği (Can): 65 (-5).
+[12:23:01.599 | T+174.00s] 'TenekeRobot-ID202' yatağa ulaştı! Uyku Derinliği (Can): 55 (-10).
+[12:23:01.599 | T+177.63s] 'TenekeRobot-ID204' yatağa ulaştı! Uyku Derinliği (Can): 45 (-10).
+[12:23:01.600 | T+181.27s] 'TenekeRobot-ID206' yatağa ulaştı! Uyku Derinliği (Can): 35 (-10).
+[12:23:01.601 | T+184.90s] 'TenekeRobot-ID208' yatağa ulaştı! Uyku Derinliği (Can): 25 (-10).
+[12:23:01.602 | T+188.53s] 'TenekeRobot-ID210' yatağa ulaştı! Uyku Derinliği (Can): 15 (-10).
+[12:23:01.602 | T+188.53s] Gece Yarısı Akını 2 püskürtüldü. Uyku: 15, Şeker: 155.
+[12:23:01.607 | T+188.53s] SON: Tüm akınlar püskürtüldü, haritada kabus kalmadı. OYUN KAZANILDI — KAZANDINIZ! (Kalan Uyku: 15, Toplam Şeker: 155)

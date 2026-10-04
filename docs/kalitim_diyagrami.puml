@@ -1,0 +1,48 @@
+@startuml UykuKalesi_Kalitim
+' Rapor için sade kalıtım diyagramı (yalnızca varlık hiyerarşisi)
+skinparam classAttributeIconSize 0
+hide empty members
+interface Cizilebilir {
+  + ciz(g)
+}
+abstract class OyunVarligi {
+  - kimlik : String
+  - x, y : double
+  + {abstract} getTurAdi() : String
+}
+abstract class KabusYaratigi {
+  - korkuEnerjisi : double
+  - temelAdimHizi : double
+  - zirhKaplamasi : int
+  + {abstract} getSekerOdulu() : int
+  + {abstract} getUykuHasari() : int
+  + {abstract} ucabilirMi() : boolean
+  + hasarAl(netHasar) : double
+  + islat(sure) : void
+}
+abstract class OyuncakSavunucu {
+  - vurusGucu : int
+  - gorusMenzili : double
+  - atisAraligi : double
+  - sekerMaliyeti : int
+  + guncelle(dt, alan) <<şablon>>
+  # hedefSec(alan) : KabusYaratigi
+  + {static} zirhFormuluUygula(h, z) : double
+  + {abstract} isabetEt(hedef, x, y, alan)
+}
+class TozCanavari <<Standart>>
+class TenekeRobot <<Zırhlı>>
+class GeceKelebegi <<Uçan>>
+class LastikSapan <<Okçu>>
+class BilyeMancinigi <<Topçu>>
+class SuTabancasi <<Buz>>
+Cizilebilir <|.. OyunVarligi
+OyunVarligi <|-- KabusYaratigi
+OyunVarligi <|-- OyuncakSavunucu
+KabusYaratigi <|-- TozCanavari
+KabusYaratigi <|-- TenekeRobot
+KabusYaratigi <|-- GeceKelebegi
+OyuncakSavunucu <|-- LastikSapan
+OyuncakSavunucu <|-- BilyeMancinigi
+OyuncakSavunucu <|-- SuTabancasi
+@enduml
